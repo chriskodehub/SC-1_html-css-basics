@@ -76,12 +76,16 @@ a:hover {
     width: 30%;
     background: #9ae84f;
     padding: 15px;
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+        0 0 0 2px rgb(255, 255, 255), 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
 
 .source {
     font-size: 12px;
 }
 
-.col-right {
+.col-right *{
     margin-left: 25px;
+    line-height: 150%;
+    margin-top: 0;
 }
